@@ -217,7 +217,6 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "CramExam",
       projectDesc: "Upload powerpoint university lectures and receive relevant practice questions",
       footerLink: [
@@ -339,6 +338,7 @@ const talkSection = {
     {
       title: "Microfluidics @ IDEAS FOR IRELAND",
       subtitle: "Microfluidics: How to promote Pharma in Ireland",
+      slides:"https://www.canva.com/design/DAGDhTRNV_A/mcPVG4ZB6O81OsGwKAaAbQ/edit?utm_content=DAGDhTRNV_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       event_url: "https://youtu.be/GmwGF70VuBs"
     }
   ],
@@ -364,7 +364,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
